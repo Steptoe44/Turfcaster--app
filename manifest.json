@@ -1,0 +1,8 @@
+{
+  "name": "Turfcaster",
+  "short_name": "Turfcaster",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "description": "Private AI horse racing predictions"
+}
