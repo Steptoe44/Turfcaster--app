@@ -1,18 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Turfcaster – Accurate UK Racing Predictions" />
-    <title>Turfcaster</title>
-    <link rel="manifest" href="manifest.json" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turfcaster</title>
+  <link rel="manifest" href="manifest.json" />
+  <style>
+    body { margin: 0; background: black; color: white; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+    h1 { font-size: 2.5em; }
+    p { font-size: 1.2em; }
+  </style>
 </head>
-<body style="margin:0;font-family:sans-serif;text-align:center;display:flex;justify-content:center;align-items:center;height:100vh;background:#000;color:#fff">
-    <div>
-        <h1>Turfcaster</h1>
-        <p>Loading accurate UK racing predictions...</p>
-    </div>
-    <script src="main.js"></script>
+<body>
+  <h1>Turfcaster</h1>
+  <p id="status">Loading accurate UK racing predictions...</p>
+  <p id="model">Model is initializing...</p>
+
+  <script src="main.js"></script>
 </body>
 </html>
